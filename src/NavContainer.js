@@ -5,7 +5,7 @@ import { LinkContainer } from "react-router-bootstrap";
 class NavContainer extends Component {
   render() {
     return (
-        <Navbar className="sticky" inverse collapseOnSelect>
+        <Navbar className="top-nav" inverse collapseOnSelect>
           <Navbar.Header>
             <LinkContainer to="/">
               <Navbar.Brand>Home</Navbar.Brand>
@@ -23,7 +23,7 @@ class NavContainer extends Component {
               <LinkContainer to="/theme">
                 <NavItem>About this site</NavItem>
               </LinkContainer>
-              <LinkContainer to="/theme">
+              <LinkContainer to="/sumGame">
                 <NavItem>Pitch</NavItem>
               </LinkContainer>
               <LinkContainer to="/theme">

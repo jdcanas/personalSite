@@ -1,14 +1,13 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import Test from '../../images/cuteDog2.jpg';
+import Justin from '../../images/justinSized.jpg';
 
 class BioContainer extends Component {
     render() {
         return (
             <form id="BioContainer">
                 <div>
-                    {/* <img src={Test} />
-                 */}
+                    <img src={Justin} />
                     <h2>Bio</h2>
                     <p className="left-align">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio eu feugiat pretium nibh. Venenatis lectus magna fringilla urna. Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus. Dolor morbi non arcu risus quis varius. Et tortor at risus viverra adipiscing at in tellus. Nisl rhoncus mattis rhoncus urna neque viverra. Consectetur a erat nam at lectus urna duis. A condimentum vitae sapien pellentesque habitant. Elit duis tristique sollicitudin nibh sit amet commodo.

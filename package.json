@@ -26,6 +26,7 @@
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.1.0",
     "file-loader": "^2.0.0",
+    "lodash": "^4.17.11",
     "react": "^16.6.3",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.6.3",
