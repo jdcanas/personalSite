@@ -1,4 +1,4 @@
-
+//TODO: refactor into separate components
 import React, { Component } from "react";
 import Number from './Number'
 var _ = require('lodash');
@@ -160,6 +160,7 @@ class Board extends React.Component {
       );
     }
 
+    //TODO create parent component thats a controler to get a message to reset the game
     componentWillUnmount() {
         clearInterval(this.intervalId);
       }
