@@ -30,6 +30,7 @@
     "react": "^16.6.3",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.6.3",
+    "react-hot-loader": "^4.3.12",
     "react-router-bootstrap": "^0.24.4",
     "react-router-component": "^0.39.1",
     "react-router-dom": "^4.3.1"

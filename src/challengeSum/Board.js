@@ -95,6 +95,7 @@ class Board extends React.Component {
       
     //   // And
     //     gameStatus: 'won'
+    
 
     randomNumberBetween(min, max) {
         return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -153,20 +154,23 @@ class Board extends React.Component {
                 <div className="timer-value">{this.state.remainingSeconds}</div>
             )}
             {['won', 'lost'].includes(this.state.gameStatus) && (
-                <button>Play Again</button>
+                <button onClick={this.props.onPlayAgain}>Play Again</button>
             )}
           </div>
         </div>
       );
     }
 
-    //TODO create parent component thats a controler to get a message to reset the game
     componentWillUnmount() {
         clearInterval(this.intervalId);
+    }
+
+    componentDidMount() {
+      if (this.props.autoPlay) {
+          this.startGame()
       }
+    }
 
   }
-
-
 
   export default Board;
