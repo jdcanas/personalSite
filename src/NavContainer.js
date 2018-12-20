@@ -24,7 +24,10 @@ class NavContainer extends Component {
                 <NavItem>About this site</NavItem>
               </LinkContainer>
               <LinkContainer to="/sumGame">
-                <NavItem>Pitch</NavItem>
+                <NavItem>Sum Game</NavItem>
+              </LinkContainer>
+              <LinkContainer to="/snake">
+                <NavItem>Snake</NavItem>
               </LinkContainer>
               <LinkContainer to="/theme">
                 <NavItem>Projects</NavItem>

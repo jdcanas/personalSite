@@ -6,6 +6,7 @@ import ThemeSwitcher from "./components/ThemeSwitcher";
 import Welcome from './components/Welcome';
 import GameContainer from './challengeSum/GameContainer';
 import TextBox from "./components/TextBox";
+import SnakeContainer from "./snake/SnakeContainer";
 
 const intro = "blah";
 const about = "blah2";
@@ -18,6 +19,7 @@ const RouterContainer = () => (
             <Route path="/bio" component={BioContainer} /> 
             <Route path="/theme" component={ThemeSwitcher} /> 
             <Route path="/sumGame" component={GameContainer} /> 
+            <Route path="/snake" component={SnakeContainer} /> 
         </div>
 );
 // <Route path="/sumGame" render={() => <GameContainer/>} />
