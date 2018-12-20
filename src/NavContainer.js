@@ -14,20 +14,17 @@ class NavContainer extends Component {
           </Navbar.Header>
           <Navbar.Collapse>
             <Nav>
-            <LinkContainer to="/theme">
+            <LinkContainer to="/intro">
                 <NavItem>Introduction</NavItem>
               </LinkContainer>
               <LinkContainer to="/bio">
                 <NavItem>Bio</NavItem>
               </LinkContainer>
-              <LinkContainer to="/theme">
+              <LinkContainer to="/about">
                 <NavItem>About this site</NavItem>
               </LinkContainer>
               <LinkContainer to="/sumGame">
                 <NavItem>Pitch</NavItem>
-              </LinkContainer>
-              <LinkContainer to="/theme">
-                <NavItem>Resume</NavItem>
               </LinkContainer>
               <LinkContainer to="/theme">
                 <NavItem>Projects</NavItem>
