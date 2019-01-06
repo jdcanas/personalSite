@@ -7,7 +7,7 @@ import React, { Component } from "react";
 class SnakeBoard extends Component {
     //min-x, min-y, width, height
     viewBox = [window.innerWidth / -2, 100 - window.innerHeight, window.innerWidth, window.innerHeight];
-    board = <div>lol</div>;
+    board;
 
     constructor(props) {
         super(props)
