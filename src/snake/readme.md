@@ -1,6 +1,10 @@
-Board, has x, y, Snake, food
-
-gameloop (2 bool, isRunning, 
+Game state:
+	-game: {isPlaying, won, lost, initial}
+	-snake: {x, y}
+	-food: {x, y}
+	-board size?
+	-direction pressed?
+	-direction moving?
 
 https://boardgame.io/#/tutorial
 

@@ -1,0 +1,1 @@
+export const arrowKeys = ["ArrowDown", "ArrowUp", "ArrowLeft", "ArrowRight"]

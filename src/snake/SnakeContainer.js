@@ -1,17 +1,21 @@
-import React, { Component } from "react";
-import SnakeBoard from "./snakeBoard";
+import { connect } from 'react-redux';
+import Snake from './Snake';
+import { directionPressed } from '../actions/index';
 
-class SnakeContainer extends Component {
+const mapStateToProps = state => ({
+    direction: state.direction,
+});
 
-    boardSize = 8
+const mapDispatchToProps = dispatch => ({
+    directionPressed: (direction) => {
+      dispatch(directionPressed(direction));
+    },
+});
+
+const SnakeContainer = connect(
+    mapStateToProps,
+    mapDispatchToProps,
+)(Snake);
     
-    render() {
-        return (
-            <div className="game">
-                <SnakeBoard size={this.boardSize}/>
-            </div>
-        );
-    }
 
-}
 export default SnakeContainer;
